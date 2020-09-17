@@ -1,0 +1,771 @@
+<!doctype html>
+<html xmlns="https://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+   <head>
+      <!-- This is a simple example template that you can edit to create your own custom templates -->
+      <!--[if gte mso 9]>
+      <xml>
+         <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+         </o:OfficeDocumentSettings>
+      </xml>
+      <![endif]-->
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+      <title>3DLook</title>
+      <!--[if mso]>
+      <style type="text/css">
+         body,table tr,table td,a,p, span,table.MsoNormalTable {  font-family:Arial, Helvetica, sans-serif !important;  }
+      </style>
+      <![endif]-->
+      <style>
+         /*=========*/
+         /*reset styles*/
+         html {
+         width: 100%;
+         }
+         body {
+         width: 100%;
+         margin: 0;
+         padding: 0;
+         -webkit-text-size-adjust: none;
+         -ms-text-size-adjust: none;
+         mso-margin-top-alt: 0px;
+         mso-margin-bottom-alt: 0px;
+         mso-padding-alt: 0px 0px 0px 0px;
+         }
+         div,
+         p,
+         a,
+         li,
+         td {
+         -webkit-text-size-adjust: none;
+         }
+         #outlook a {
+         padding: 0;
+         }
+         p,
+         h1,
+         h2,
+         h3,
+         h4 {
+         margin-top: 0;
+         margin-bottom: 0;
+         padding-top: 0;
+         padding-bottom: 0;
+         }
+         .font-weight {
+         font-weight: 500;
+         }
+         table {
+         mso-table-lspace: 0pt;
+         mso-table-rspace: 0pt;
+			border: 0;
+         }
+         table td {
+         border-collapse: collapse;
+         }
+         table p,
+         table h1,
+         table h2,
+         table h3,
+         table h4 {
+         margin-top: 0 !important;
+         margin-right: 0 !important;
+         margin-bottom: 0 !important;
+         margin-left: 0 !important;
+         padding-top: 0 !important;
+         padding-right: 0 !important;
+         padding-bottom: 0 !important;
+         padding-left: 0 !important;
+         display: block !important;
+         }
+         span.preheader {
+         display: none;
+         font-size: 1px;
+         visibility: hidden;
+         opacity: 0;
+         color: transparent;
+         height: 0;
+         width: 0;
+         }
+         /* IOS blue links */
+         a[x-apple-data-detectors] {
+         color: inherit !important;
+         text-decoration: none !important;
+         font-size: inherit !important;
+         font-family: inherit !important;
+         font-weight: inherit !important;
+         line-height: inherit !important;
+         }
+         a {
+         outline: none;
+         }
+         /* IOS blue links */
+         td a {
+         color: inherit;
+         text-decoration: none;
+         }
+         a {
+         color: inherit;
+         text-decoration: none;
+         }
+         .undoreset a,
+         .undoreset a:hover {
+         text-decoration: none !important;
+         }
+         .yshortcuts a {
+         border-bottom: none !important;
+         }
+         .ios-footer a {
+         color: #aaaaaa !important;
+         text-decoration: none;
+         }
+         a {
+         text-decoration: none;
+         }
+         a img {
+         border: none;
+         }
+         .image_fix {
+         display: block;
+         }
+         .ReadMsgBody {
+         width: 100%;
+         }
+         .ExternalClass {
+         width: 100%;
+         }
+         .ExternalClass,
+         .ExternalClass p,
+         .ExternalClass span,
+         .ExternalClass font,
+         .ExternalClass td,
+         .ExternalClass div {
+         line-height: 100%;
+         }
+         img {
+         -ms-interpolation-mode: bicubic;
+         }
+         p {
+         margin: 0 !important;
+         padding: 0 !important;
+         }
+		  .hidefix{
+			  display: none;
+		  }
+         /*reset styles*/
+         /*=========*/
+         @media screen and (max-width: 600px) {
+         .hideDesktop {
+         display: block!important;
+         }
+         .hideForMobile {
+         display: none
+         }
+         .mobhide,
+         *[class="mobhide"] {
+         max-height: 0;
+         /* Gmail*/
+         display: none;
+         /* Generic*/
+         mso-hide: all;
+         /* Outlook clients*/
+         overflow: hidden;
+         /* Generic */
+         font-size: 0;
+         /* Be careful with this one, only use if absolutely required */
+         }
+         img[class=mobhide] {
+         display: none !important;
+         }
+         img[class=mobshow] {
+         width: 100% !important;
+         display: block !important;
+         line-height: normal !important;
+         overflow: visible !important;
+         visibility: visible !important;
+         height: auto !important;
+         }
+         .mobshow {
+         display: block !important;
+         }
+         .mobshow,
+         *[class="mobshow"] {
+         width: 100% !important;
+         display: block !important;
+         overflow: visible !important;
+         float: none !important;
+         font-size: 12px !important;
+         visibility: visible !important;
+         border: none !important;
+         max-height: none !important;
+         height: auto !important;
+         }
+         img {
+         max-width: 100% !important;
+         height: auto !important
+         }
+         .container img {
+         max-width: 100% !important;
+         height: auto !important
+         }
+         .main-container{
+         width: 95% !important;
+         max-width: 95% !important;
+         float: none !important;
+         margin: 0 auto !important;
+         }
+         .container {
+         width: 100% !important;
+         max-width: 100% !important;
+         float: none !important;
+         margin: 0 auto !important;
+         }
+          
+         .inner-container {
+         width: 88% !important;
+         max-width: 100% !important;
+         float: none !important;
+         margin: 0 auto !important;
+         }
+			 
+		.col-2-container {
+         width: 97% !important;
+         max-width: 97% !important;
+           
+         }	 
+			 
+         .mob-hide {
+         display: none !important;
+         height: 0px !important;
+         overflow: hidden !important
+         }
+         .mob-center td,
+         .mob-center {
+         text-align: center !important
+         }
+         .mob-center table {
+         margin: 0 auto !important;
+         float: none !important;
+         }
+         .mob-img-full {
+         width: 100% !important;
+         max-width: 100% !important;
+         float: none !important;
+         margin: 0 auto !important;
+         }
+			 
+			 .mob-f-15{
+				 font-size: 15px !important;
+				 line-height: 20px !important;
+			 }
+			 .mob-f-16{
+				 font-size: 16px !important;
+				 line-height: 18px !important;
+			 }
+			 
+			 .mob-f-13{
+				 font-size: 13px !important;
+				 line-height: 14px !important;
+			 }
+			 .mob-f-18{
+				 font-size: 18px !important;
+				 line-height: 22px !important;
+			 }
+			 
+			 .mob-f-20{
+				 font-size: 20px !important;
+				 line-height: 24px !important;
+			 }
+			 .mob-f-23{
+				 font-size: 22px !important;
+				 line-height: 26px !important;
+			 }
+			 
+			 .border-1px{
+				 border-width: 1px !important 
+			 }
+			 .btn-tbl a{
+				 font-size: 16px !important;
+				 line-height: 45px !important;
+				 width: 100% !important;
+				 display: block !important;
+			 }
+			 .mob-h-18{
+				 height: 18px !important;
+			 }
+			 .mob-h-22{
+				 height: 22px !important;
+			 }
+			 .mob-h-25{
+				 height: 25px !important;
+			 }
+			 .mob-h-20{
+				 height: 20px !important;
+			 }
+			 .mob-h-30{
+				 height: 30px !important;
+			 }
+			 .mob-h-35{
+				 height: 35px !important;
+			 }
+			 .social-right table {
+				 width: 110px !important;
+			 }
+			 .social-right table img{
+				 width: 18px !important;
+				 height: 18px !important;
+			 }
+			 .mob-f-11{
+				 font-size: 10.964px !important;
+				line-height: 11px !important;
+			 }
+			  .mob-f-7{
+				 font-size: 7px !important;
+				line-height: 11px !important;
+			 }
+			 .manager-td{
+				 width: 50px !important;
+			 }
+			 .footer-m-name{
+				 font-size: 16px !important;
+				 line-height: 18px !important;
+			 }
+			 .footer-m-post{
+				font-size: 11px !important;
+				 line-height: 12px !important; 
+				 padding-right: 5px !important;
+			 }
+			 .logo{
+				 width: 80px !important;
+			 }
+			 .header-background{
+				 height: auto !important
+			 }
+			 .mob-w-5{
+				 width: 6px !important;
+			 }
+			 .mob-h-auto{
+				 height: auto !important
+			 }
+			 .inner-container.btn-tbl{
+				     max-width: 258px !important;
+			 }
+			 .inner-container.header-container{
+				     width: 85% !important;
+			 }
+			 
+			 .icon-block-tbl img{
+				 width: 27px !important;
+			 }
+			  
+			 .logo-td img{
+				 width: 78px !important;
+				 height: auto!important;
+			 }
+			 .p-tb-5{
+				 padding: 5px 0 !important
+			 }
+			 .mob-pb-10{
+				 padding-bottom: 10px !important;
+			 }
+			 .mob-f-14{
+				 font-size: 14px !important;
+				 line-height: 18px !important;
+			 }
+			 .easy-block .tl{
+				 width: 10px !important;
+			 }
+			 .easy-block .tm{
+				 width: auto!important;
+			 }
+			 .easy-block .tr{
+				 width: 45% !important;
+			 }
+			 
+         }
+		  @media screen and (max-width: 340px) {
+			   .footer-m-name {
+					font-size: 14px !important;
+					line-height: 14px !important;
+				}
+			  .manager-td {
+				width: 45px !important;
+			}
+		  }
+      </style>
+   </head>
+   <body style="margin: 0; padding: 0; background-color: #f8f9fa;" bgcolor="#f8f9fa">
+ 
+      <!===========Preheader Start==============>
+      <span style="display:none !important; visibility:hidden; mso-hide:all; font-size:1px; color:#ffffff; line-height:1px; max-height:0px; max-width:0px; opacity:0; overflow:hidden;">
+      	You asked, we delivered! Pay only per successfully measured customer 🙌
+      </span>
+	   <!-- Insert &zwnj;&nbsp; hack after hidden preview text -->
+	   <div class="hidefix" style="display: none; max-height: 0px; overflow: hidden; mso-hide:all;">			&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+	   </div>
+	    
+      <!===========Preheader End==============>
+      <table cellpadding="0" cellspacing="0" width="100%" style="width: 100%; background-color: #f8f9fa; " bgcolor="#f8f9fa" border="0" class="whideBG">
+         <tr class="hideForMobile">
+            <td>
+               <table cellpadding="0" cellspacing="0" border="0" align="center" width="600">
+                  <tr>
+                     <td cellpadding="0" cellspacing="0" border="0" height="1" style="line-height: 1px; min-width: 600px;"></td>
+                  </tr>
+               </table>
+            </td>
+         </tr>
+         <tr>
+            <td valign="top" align="center">
+               <table align="center" cellpadding="0" cellspacing="0" width="600" class="container" style="text-align:left; width: 600px; max-width: 600px;" border="0" bgcolor="#fbfbfb">
+				   
+				   <tr>
+                        <td valign="top" align="center" bgcolor="#141414">
+                            <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin:0 auto; width: 600px; max-width:600px;" align="center" bgcolor="#141414" class="container">
+                                <tr>
+									<td align="center" valign="top" class="logo-td">
+										<a href="https://3dlook.me/?utm_source=newsletter&utm_medium=email&utm_campaign=pay_per_scan" target="_blank" style="display: block; width: 100%; text-align: center"><img alt="3DLook" src="images/logo.png" width="118" height="70" style="width: 118px; max-width: 118px; height: 70px; margin: 0 auto; display: block; border: 0;" border="0"></a>
+									</td>
+								</tr>
+                            </table>
+                        </td>
+                    </tr>
+				   <tr>
+                        <td valign="top" align="center" bgcolor="#C81B51">
+                            <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin:0 auto; width: 600px; max-width:600px;" align="center" bgcolor="#C81B51" class="inner-container">
+                                <tr>
+									<td align="center" valign="top" style="padding: 8px 0">
+										 <p class="mob-f-18" style="margin: 0; padding: 0; font-size: 26px; line-height: 31px; font-family: 'Raleway', Arial, sans-serif; font-weight:400; text-decoration: none; letter-spacing: 0.01em; color: #ffffff;">
+											 <a style="color: #ffffff; text-decoration: none; width: 100%; display: block" href="https://3dlook.me/mobile-tailor/?utm_source=newsletter&utm_medium=email&utm_campaign=pay_per_scan" target="_blank"><strong style="font-weight: bold; color: #ffffff; text-decoration: none;">YOU ASKED, WE DELIVERED!</strong></a>
+										  </p>
+									</td>
+								</tr>
+                            </table>
+                        </td>
+                    </tr>
+				   <tr>
+                        <td valign="top" align="center" bgcolor="#141414">
+                            <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin:0 auto; width: 500px; max-width:500px;" align="center" bgcolor="#141414" class="inner-container header-container">
+								<tr><td height="36" style="height: 36px;" class="mob-h-25">&nbsp;</td></tr>
+                                <tr>
+									<td align="center" valign="top">
+										 <p class="mob-f-23" style="margin: 0; padding: 0; font-size: 34px; line-height: 40px; font-family: 'Raleway', Arial, sans-serif; font-weight:400; text-decoration: none; letter-spacing: 0.01em; color: #ffffff;">
+											INTRODUCING <span style="color: #E52C56; text-decoration: none"><a href="https://3dlook.me/mobile-tailor/?utm_source=newsletter&utm_medium=email&utm_campaign=extended_trial&utm_content=cold_users" target="_blank" style="color: #E52C56; text-decoration: none">PAY PER SCAN</a></span> FOR MOBILE TAILOR
+										  </p>
+									</td>
+								</tr>
+								<tr><td height="20" style="height: 20px;" class="mob-h-20">&nbsp;</td></tr>
+								<tr> 
+									<td valign="top">
+										<p class="mob-f-15" style="margin: 0; padding: 0; font-size: 18px; line-height: 21px; font-family: 'Raleway', Arial, sans-serif; font-weight:400; text-decoration: none; letter-spacing: 0.01em; color: #ffffff; text-align: justify">
+										To ensure that you only pay for what you use, we've created the "<strong>Pay per scan</strong>" option which allows you to pay <strong>$5 per each measured customer</strong>. Should your requirements change, you will always have the option of going with the fixed subscription plans.
+										  </p>
+									</td>
+								</tr>
+								 
+								<tr>
+									<td align="center" valign="top" style="text-align:center">
+										<a href="https://3dlook.me/mobile-tailor/?utm_source=newsletter&utm_medium=email&utm_campaign=pay_per_scan" target="_blank"><img alt="Pay Per Scan" src="images/header-img.jpg" width="500" height="500" style="width: 500px; height: 500px; margin: 0 auto; display: block; border: 0;" border="0"></a>
+									</td>
+								</tr>
+								 
+								
+                            </table>
+                        </td>
+                    </tr>
+				    <tr>
+                        <td valign="top" align="center" bgcolor="#C81B51">
+                            <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin:0 auto; width: 600px; max-width:600px;" align="center" bgcolor="#C81B51" class="inner-container">
+                                <tr>
+									<td align="center" valign="top" style="padding: 8px 0">
+										 <p class="mob-f-18" style="margin: 0; padding: 0; font-size: 26px; line-height: 31px; font-family: 'Raleway', Arial, sans-serif; font-weight:400; text-decoration: none; letter-spacing: 0.01em; color: #ffffff;">
+											<a style="color: #ffffff; text-decoration: none; display: block; width: 100%;" href="https://3dlook.me/mobile-tailor/?utm_source=newsletter&utm_medium=email&utm_campaign=pay_per_scan" target="_blank"> <strong style="font-weight: bold; color: #ffffff; text-decoration: none;">EASY. FLEXIBLE. FAST.</strong></a>
+										  </p>
+									</td>
+								</tr>
+                            </table>
+                        </td>
+                    </tr>
+				    <tr>
+                        <td valign="top" align="center" bgcolor="#fbfbfb" class="easy-block">
+                            <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin:0 auto; width: 600px; max-width:600px;" align="center"   class="container">
+								<tr><td colspan="3" height="35" style="height: 35px;" class="mob-h-30">&nbsp;</td></tr>
+                                <tr>
+									<td align="center" valign="top" width="33" style="width: 33px;" class="tl">&nbsp;
+									  
+									</td>
+									<td valign="top" width="270" style="width: 270px;" class="tm">
+									 <table cellpadding="0" cellspacing="0" width="100%" style="width: 100%;" class="inner-container" border="0" align="left">
+										<tr>
+											<td valign="top" style="padding-bottom: 18px;" class="mob-pb-10">
+												<p class="mob-f-14" style="margin: 0; padding: 0; font-size: 18px; line-height: 21px; font-family: 'Raleway', Arial, sans-serif; font-weight:400; text-decoration: none;  color: #000000;">
+												&rarr; Only $5 per successfully measured customer</p>
+											</td>
+										 </tr>
+
+										 <tr>
+											<td valign="top" style="padding-bottom: 18px;" class="mob-pb-10">
+												<p class="mob-f-14" style="margin: 0; padding: 0; font-size: 18px; line-height: 21px; font-family: 'Raleway', Arial, sans-serif; font-weight:400; text-decoration: none;  color: #000000;">
+												&rarr; No limitation on the min and max number of scans per month</p>
+											</td>
+										 </tr>
+
+										  <tr>
+											<td valign="top">
+												<p class="mob-f-14" style="margin: 0; padding: 0; font-size: 18px; line-height: 21px; font-family: 'Raleway', Arial, sans-serif; font-weight:400; text-decoration: none;  color: #000000;">
+												&rarr; Billing is carried monthly according to the number of measured customers in the specific month</p>
+											</td>
+										 </tr>
+									 </table>
+									</td>
+									<td valign="top" width="297" style="width: 297px;" class="tr">
+									 	<a href="https://3dlook.me/mobile-tailor/?utm_source=newsletter&utm_medium=email&utm_campaign=pay_per_scan" target="_blank"><img alt="Laptop" src="images/laptop.jpg" width="297" height="218" style="width: 297px; height: 218px; margin: 0 auto; display: block; border: 0;" border="0"></a> 
+									</td>
+								</tr>
+								<tr><td colspan="3" height="35" style="height: 35px;" class="mob-h-30">&nbsp;</td></tr>
+                            </table>
+                        </td>
+                    </tr>
+				   <tr>
+                        <td valign="top" align="center" bgcolor="#C81B51">
+                            <table cellpadding="0" cellspacing="0" border="0" role="presentation" width="550" style="margin:0 auto; width: 550px; max-width:550px;" align="center" bgcolor="#C81B51" class="inner-container">
+                                <tr>
+									<td align="center" valign="top" style="padding: 12px 0" class="p-tb-5">
+										 <p class="mob-f-15" style="margin: 0; padding: 0; font-size: 20px; line-height: 23px; font-family: 'Raleway', Arial, sans-serif; font-weight:400; text-decoration: none; letter-spacing: 0.01em; color: #ffffff;">
+											 <a style="color: #ffffff; text-decoration: none; display: block; width: 100%;" href="https://3dlook.me/mobile-tailor/?utm_source=newsletter&utm_medium=email&utm_campaign=pay_per_scan" target="_blank"><strong style="font-weight: bold; color: #ffffff; text-decoration: none;">Request "pay per scan" option by replying to this email.</strong></a>
+										  </p>
+									</td>
+								</tr>
+                            </table>
+                        </td>
+                    </tr>
+								
+				   <tr>
+						<td align="center" valign="top">
+							<table cellpadding="0" cellspacing="0" width="540" style="width: 540px; text-align: left" align="center" border="0" class="inner-container">
+								<tr><td height="30" style="height: 30px;" class="mob-h-20">&nbsp;</td></tr>
+								<tr>
+									<td align="center" valign="top">
+									  <p class="mob-f-20" style="margin: 0; padding: 0; font-size: 26px; line-height: 30px; font-family: 'Raleway', Arial, sans-serif; font-weight:400; text-decoration: none; letter-spacing: 0.01em; color: #000000; text-transform: uppercase;">
+											<strong>IN ADDITION, YOU WILL ENJOY THE FOLLOWING MOBILE TAILOR'S FEATURES:</strong>
+										  </p>
+									</td>
+								</tr>
+								<tr><td height="45" style="height: 45px;" class="mob-h-25">&nbsp;</td></tr>
+							   
+								<tr>
+									<td valign="top" align="center">
+										<table cellpadding="0" cellspacing="0" width="100%" border="0" class="icon-block-tbl">
+											<tr>
+												<td valign="top" align="left" width="50" style="width: 50%">
+													<table cellpadding="0" cellspacing="0" width="258" align="left" style="width: 258px;" border="0" class="col-2-container">
+														<tr>
+															<td valign="top" align="center" style="padding-bottom: 10px;"><a href="https://3dlook.me/mobile-tailor/?utm_source=newsletter&utm_medium=email&utm_campaign=pay_per_scan" target="_blank"><img alt="" src="images/icon_1.png" width="40" height="35" style="width: 40px; height: 35px; margin: 0 auto; display: block; border: 0;" border="0"></a>
+															</td>
+														</tr>
+														<tr> 
+															<td valign="top" align="center"  height="70" style="height: 70px;" class="mob-h-auto">
+																<p class="mob-f-15" style="margin: 0; padding: 0; font-size: 20px; line-height: 24px; font-family: 'Raleway', Arial, sans-serif; font-weight:400; text-decoration: none;  color: #000000;">
+																  <a style="text-decoration: none; color: #000000;" href="https://3dlook.me/mobile-tailor/?utm_source=newsletter&utm_medium=email&utm_campaign=pay_per_scan" target="_blank">Accurate customer's body data in under 1 minute</a> </p>
+															</td>
+														</tr>
+													</table>
+												</td> 
+												<td valign="top" align="right" width="50" style="width: 50%">
+													<table cellpadding="0" cellspacing="0" width="258" align="right" style="width: 258px;" border="0" class="col-2-container">
+														<tr>
+															<td valign="top" align="center" style="padding-bottom: 10px;"><a href="https://3dlook.me/mobile-tailor/?utm_source=newsletter&utm_medium=email&utm_campaign=pay_per_scan" target="_blank"><img alt="" src="images/icon_2.png" width="40" height="35" style="width: 40px; height: 35px; margin: 0 auto; display: block; border: 0;" border="0"></a>
+															</td>
+														</tr>
+														<tr> 
+															<td valign="top" align="center">
+																<p class="mob-f-15" style="margin: 0; padding: 0; font-size: 20px; line-height: 24px; font-family: 'Raleway', Arial, sans-serif; font-weight:400; text-decoration: none; color: #000000;">
+																  <a style="text-decoration: none; color: #000000;" href="https://3dlook.me/mobile-tailor/?utm_source=newsletter&utm_medium=email&utm_campaign=pay_per_scan" target="_blank">70+ measurements of your customers in your personal dashboard</a> </p>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<tr><td colspan="2" height="40" style="height: 40px;" class="mob-h-30">&nbsp;</td></tr>
+											<tr>
+												<td valign="top" align="left" width="50" style="width: 50%">
+													<table cellpadding="0" cellspacing="0" width="258" align="left" style="width: 258px;" border="0" class="col-2-container">
+														<tr>
+															<td valign="top" align="center" style="padding-bottom: 10px;"><a href="https://3dlook.me/mobile-tailor/?utm_source=newsletter&utm_medium=email&utm_campaign=pay_per_scan" target="_blank"><img alt="" src="images/icon_3.png" width="40" height="35" style="width: 40px; height: 35px; margin: 0 auto; display: block; border: 0;" border="0"></a>
+															</td>
+														</tr>
+														<tr> 
+															<td valign="top" align="center" height="70" style="height: 70px;" class="mob-h-auto">
+																<p class="mob-f-15" style="margin: 0; padding: 0; font-size: 20px; line-height: 24px; font-family: 'Raleway', Arial, sans-serif; font-weight:400; text-decoration: none;  color: #000000;">
+																  <a style="text-decoration: none; color: #000000;" href="https://3dlook.me/mobile-tailor/?utm_source=newsletter&utm_medium=email&utm_campaign=pay_per_scan" target="_blank">User-friendly interface and a choice of modes on taking photos</a> </p>
+															</td>
+														</tr>
+													</table>
+												</td> 
+												<td valign="top" align="right" width="50" style="width: 50%">
+													<table cellpadding="0" cellspacing="0" width="258" align="right" style="width: 258px;" border="0" class="col-2-container">
+														<tr>
+															<td valign="top" align="center" style="padding-bottom: 10px;"><a href="https://3dlook.me/mobile-tailor/?utm_source=newsletter&utm_medium=email&utm_campaign=pay_per_scan" target="_blank"><img alt="" src="images/icon_6.png" width="40" height="35" style="width: 40px; height: 35px; margin: 0 auto; display: block; border: 0;" border="0"></a>
+															</td>
+														</tr>
+														<tr> 
+														  <td valign="top" align="center"  height="70" style="height: 70px;" class="mob-h-auto">
+																<p class="mob-f-15" style="margin: 0; padding: 0; font-size: 20px; line-height: 24px; font-family: 'Raleway', Arial, sans-serif; font-weight:400; text-decoration: none; color: #000000;">
+															    <a style="text-decoration: none; color: #000000;" href="https://3dlook.me/mobile-tailor/?utm_source=newsletter&utm_medium=email&utm_campaign=pay_per_scan" target="_blank">Personalized measurement link via email or SMS</a> </p>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											
+											<tr><td colspan="2" height="40" style="height: 40px;" class="mob-h-30">&nbsp;</td></tr>
+											<tr>
+												<td valign="top" align="left" width="50" style="width: 50%">
+													<table cellpadding="0" cellspacing="0" width="258" align="left" style="width: 258px;" border="0" class="col-2-container">
+														<tr>
+															<td valign="top" align="center" style="padding-bottom: 10px;"><a href="https://3dlook.me/mobile-tailor/?utm_source=newsletter&utm_medium=email&utm_campaign=pay_per_scan" target="_blank"><img alt="" src="images/icon_5.png" width="40" height="35" style="width: 40px; height: 35px; margin: 0 auto; display: block; border: 0;" border="0"></a>
+															</td>
+														</tr>
+														<tr> 
+														  <td valign="top" align="center"  height="70" style="height: 70px;" class="mob-h-auto">
+																<p class="mob-f-15" style="margin: 0; padding: 0; font-size: 20px; line-height: 24px; font-family: 'Raleway', Arial, sans-serif; font-weight:400; text-decoration: none;  color: #000000;">
+																<a style="text-decoration: none; color: #000000;" href="https://3dlook.me/mobile-tailor/?utm_source=newsletter&utm_medium=email&utm_campaign=pay_per_scan" target="_blank">Fully self-service, no integration needed</a> </p>
+															</td>
+														</tr>
+													</table>
+												</td> 
+												<td valign="top" align="right" width="50" style="width: 50%">
+													<table cellpadding="0" cellspacing="0" width="258" align="right" style="width: 258px;" border="0" class="col-2-container">
+														<tr>
+															<td valign="top" align="center" style="padding-bottom: 10px;"><a href="https://3dlook.me/mobile-tailor/?utm_source=newsletter&utm_medium=email&utm_campaign=pay_per_scan" target="_blank"><img alt="" src="images/icon_8.png" width="40" height="35" style="width: 40px; height: 35px; margin: 0 auto; display: block; border: 0;" border="0"></a>
+															</td>
+														</tr>
+														<tr> 
+														  <td valign="top" align="center"  height="70" style="height: 70px;" class="mob-h-auto">
+																<p class="mob-f-15" style="margin: 0; padding: 0; font-size: 20px; line-height: 24px; font-family: 'Raleway', Arial, sans-serif; font-weight:400; text-decoration: none; color: #000000;">
+															    <a style="text-decoration: none; color: #000000;" href="https://3dlook.me/mobile-tailor/?utm_source=newsletter&utm_medium=email&utm_campaign=pay_per_scan" target="_blank">Product is plug and play, ready for immediate use</a> </p>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr> 
+										</table>
+									</td>
+								</tr>
+								<tr><td height="20" style="height: 20px;" class="mob-h-35">&nbsp;</td></tr> 
+							</table>
+						</td>
+					</tr>
+				   
+				    <tr>
+						<td valign="top" align="center" bgcolor="#C81B51">
+							<table cellpadding="0" cellspacing="0" border="0" role="presentation" width="550" style="margin:0 auto; width: 550px; max-width:550px;" align="center" bgcolor="#C81B51" class="inner-container">
+								<tr>
+									<td align="center" valign="top" style="padding: 12px 0" class="p-tb-5">
+										 <p class="mob-f-15" style="margin: 0; padding: 0; font-size: 20px; line-height: 23px; font-family: 'Raleway', Arial, sans-serif; font-weight:700; text-decoration: none; letter-spacing: 0.01em; color: #ffffff;">
+											 <a style="color: #ffffff; text-decoration: none; display: block; width: 100%;" href="https://3dlook.me/mobile-tailor/?utm_source=newsletter&utm_medium=email&utm_campaign=extended_trial&utm_content=cold_users" target="_blank"><strong style="font-weight: bold; color: #ffffff; text-decoration: none;">Reply to this e-mail and try "pay per scan" option now!</strong></a>
+										  </p>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				   <tr>
+						<td align="center" valign="top" bgcolor="#000000">
+							<table cellpadding="0" cellspacing="0" width="510" style="width: 510px; text-align: left" align="center" border="0" class="inner-container">
+								<tr><td height="18" style="height: 18px;">&nbsp;</td></tr>
+								<tr> 
+									<td valign="top" align="left">
+										<table cellpadding="0" cellspacing="0" width="100%" border="0">
+											<tr>
+												<td width="300">
+													<table cellpadding="0" cellspacing="0" width="100%" style="width: 100%;" border="0">
+														<tr>
+															<td width="68" class="manager-td">
+																<img alt="Alexandra Sagaydak" src="images/manager-pic.png" width="68" height="68" style="width: 68px; height: 68px; display: block; border: 0; margin: 0 auto;" border="0">
+															</td>
+															<td width="10" style="width: 10px;" class="mob-w-5">&nbsp;</td>
+															<td align="left" valign="middle">
+																<table cellpadding="0" cellspacing="0" width="100%" border="0">
+																	<tr>
+																		<td valign="top">
+																			<p class="footer-m-name" style="margin: 0; padding: 0; font-size: 23px; line-height: 25px; font-family: 'Raleway', Arial, sans-serif; font-weight: 500; text-decoration: none; color: #ffffff; letter-spacing: 0.1px;">
+																				 Alexandra Sagaydak
+																			 </p>
+																			<p class="footer-m-post"  style="margin: 0; padding: 0; font-size: 16px; line-height: 20px; font-family: 'Raleway', Arial, sans-serif; font-weight: 300; text-decoration: none; color: #ffffff;">
+																				<em style="font-weight: 300">Customer Success Team Lead</em>
+																			 </p>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+													</table>
+												</td>
+												  <td valign="top" align="right" class="social-right">
+													<table cellpadding="0" cellspacing="0" width="170" style="width: 170px" border="0" align="right">
+														<tr>
+															<td valign="top" style="padding-bottom: 10px;">
+																 <table cellpadding="0" cellspacing="0" width="145" style="width: 145px" border="0">
+																	<tr>
+																		<td>
+																			<a href="https://3dlook.me/?utm_source=newsletter&utm_medium=email&utm_campaign=pay_per_scan" target="_blank"><img alt="3DLOOK" src="images/s-icon_1.png" width="25" height="25" style="width: 25px; height: 25px; display: block; border: 0; margin: 0 auto;" border="0"></a>
+																		</td>
+																		<td width="5">&nbsp;</td>
+																		<td>
+																			<a href="https://www.facebook.com/3DLOOK.me/ " target="_blank"><img alt="facebook" src="images/s-icon_2.png" width="25" height="25" style="width: 25px; height: 25px; display: block; border: 0; margin: 0 auto;" border="0"></a>
+																		</td>
+																		<td width="5">&nbsp;</td>
+																		<td>
+																			<a href="https://www.linkedin.com/company/3dlook/ " target="_blank"><img alt="linkedin" src="images/s-icon_3.png" width="25" height="25" style="width: 25px; height: 25px; display: block; border: 0; margin: 0 auto;" border="0"></a>
+																		</td>
+																		<td width="5">&nbsp;</td>
+																		<td>
+																			<a href="https://www.instagram.com/3dlook_me/ " target="_blank"><img alt="instagram" src="images/s-icon_4.png" width="25" height="25" style="width: 25px; height: 25px; display: block; border: 0; margin: 0 auto;" border="0"></a>
+																		</td>
+																		<td width="5">&nbsp;</td>
+																		<td>
+																			<a href="https://twitter.com/3dlook_me " target="_blank"><img alt="Twitter" src="images/s-icon_5.png" width="25" height="25" style="width: 25px; height: 25px; display: block; border: 0; margin: 0 auto;" border="0"></a>
+																		</td> 
+																	</tr>
+																</table>
+															</td> 
+														</tr>
+														<tr>
+															<td align="left" valign="middle">
+																<p  class="mob-f-11" style="margin: 0; padding: 0; font-size: 16px; line-height: 18px; font-family: 'Lato', Arial, sans-serif; font-weight: 400; text-decoration: none; color: #ffffff;">
+																	San Mateo, CA 94401 55 East 3rd Avenue
+																 </p>
+																 
+															</td>
+														</tr>
+													</table>
+												 </td>
+											</tr>
+										</table>
+									</td>
+								</tr> 
+								<tr><td height="35" style="height: 35px;" class="mob-h-18">&nbsp;</td></tr>
+								<tr> 
+									<td valign="top">
+										<p class="mob-f-7" style="margin: 0; padding: 0; font-size: 10.2217px; line-height: 15px; font-family: 'Raleway', Arial, sans-serif; font-weight: 400; text-decoration: none; color: #ffffff;">
+											In the past you provided 3DLOOK with your email address. Occasionally you will receive emails from us with news and updates about 3DLOOK. If you no longer want to receive these emails just press <strong><a href="{{UnsubscribeUrl}}" style="color: #ffffff; text-decoration: underline;">unsubscribe</a></strong> and you'll be removed from our list. For information about how we process data and monitor communications please see our <strong><a href="https://3dlook.me/privacy-policy/" target="_blank" style="color: #ffffff; text-decoration: underline;">Privacy Policy</a></strong> and <strong><a href="https://3dlook.me/terms-of-service/" target="_blank" style="color: #ffffff; text-decoration: underline;">Terms of Use</a></strong>.
+										 </p>
+									</td>
+								</tr> 
+								<tr><td height="18" style="height: 18px;">&nbsp;</td></tr>
+							</table>
+						</td>
+					</tr>
+               </table>
+            </td>
+         </tr>
+      </table>
+      <!-- end of 100% -->
+   </body>
+</html>
